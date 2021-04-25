@@ -178,6 +178,7 @@ class CausalMechanismTransferICML2020API:
             param_history_manager: Optional[ParamHistoryManagerBase] = None):
         """Construct the method object.
         """
+        print("Inside Init")
         if run_logger is None:
             self.run_logger = DummyRunLogger()
         else:
@@ -273,7 +274,7 @@ class CausalMechanismTransferICML2020API:
         debug : ``bool``
             Debug mode (default ``False``). If false, exceptions are not caught during the loop.
         """
-        # Generate hyper-parameter grid.
+        # Generate hyper-parameter grid.        
         param_grid = self._prepare_hyperparam_grid(cfg_method)
         # Split the grid cells for brute-force parallelization.
         param_grid = self._split_and_filter_hyperparam_candidates(

@@ -8,11 +8,11 @@ method:
 
   base_param:
     lr: [1e-3]
-    weight_decay: [1e-3, 1e-1]
+    weight_decay: [1e-3, 1e-2, 1e-1]
 
   model_param:
-    classifier_hidden_dim: [10]
-    depth: [4]
+    classifier_hidden_dim: [10, 20]
+    depth: [4, 8, 16]
     n_hidden: [10, 100]
     classifier_n_layer: [1]
 

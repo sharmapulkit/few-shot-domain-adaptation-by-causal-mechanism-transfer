@@ -56,6 +56,9 @@ class GCLTrainableInvertibleICAModel:
         self.batch_size = batch_size
         self.max_epochs = max_epochs
 
+        ### Pulkit
+        self.model = self.model.to(self.device)
+
     def train_and_record(self, src_data: Tuple[np.ndarray, np.ndarray],
                          run_logger, intermediate_evaluators: EvaluatorRunner,
                          final_evaluators: EvaluatorRunner):

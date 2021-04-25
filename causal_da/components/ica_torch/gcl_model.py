@@ -178,7 +178,7 @@ class GeneralizedContrastiveICAModel(nn.Module):
         """
         if isinstance(x, np.ndarray):
             x = torch.from_numpy(x)
-        return self.network.inv(x).detach().numpy()
+        return self.network.inv(x).detach().cpu().numpy()
 
     def forward(self, x: FloatTensor) -> FloatTensor:
         """Alias of ``hidden()``.

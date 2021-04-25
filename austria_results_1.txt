@@ -1,0 +1,435 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/sacred
+MongoDB server version: 3.6.3
+{
+	"_id" : 1,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"weight_decay" : 0.001
+	}
+}
+{ "_id" : 2, "info" : { } }
+{
+	"_id" : 3,
+	"info" : {
+		"data_run_id" : "JAPAN_1",
+		"depth" : 4,
+		"weight_decay" : 0.001
+	}
+}
+{ "_id" : 4, "info" : { } }
+{
+	"_id" : 5,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.18470566522046877,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 6,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.1764467879938708,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 7,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.19628990504835306,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 8,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.18470566522046877,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 9,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.11509267610289863,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 10,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.1221246524739931,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 11,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.17368903227931728,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 12,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.07113177379110083,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 13,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.059000970110903724,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 14,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.13782395424501057,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 15,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.09968361417950915,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 16,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.19689526836405816,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 17,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.1775731293118257,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 18,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.1818299517702935,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 19,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.23022265865158775,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 20,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.17318626427094966,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 21,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.16963593001071653,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 22,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.17543065926602613,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 23,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.08884909055286717,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 24,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.030120406009433314,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 25,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.22502840863483678,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 26,
+	"info" : {
+		"data_run_id" : "AUSTRIA_1",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.14572946383772747,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 27,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.13891860997662828,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 28,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.21218927905455115,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 29,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.17560753197685758,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 30,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.14607907278053733,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 31,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.26344487591648746,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 32,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.15076141722820874,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 33,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.14556188336538625,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 34,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.22337826791046167,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 35,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.148472085629511,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 36,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.11809421646913514,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 37,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.1144377378133051,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 38,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.11440173477419924,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 39,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.18976908076749893,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 40,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.2111849486801906,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 41,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.14933285465589707,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 42,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.10816314282732196,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 43,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.14154535974475457,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 44,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 4,
+		"epoch_model AugKRR_MSE" : 0.16904904083615999,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 45,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.18683777877841534,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 46,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.11586458926446269,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 47,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.08325127627185755,
+		"weight_decay" : 0.1
+	}
+}
+{
+	"_id" : 48,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.1720051458495721,
+		"weight_decay" : 0.001
+	}
+}
+{
+	"_id" : 49,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.12592196891231205,
+		"weight_decay" : 0.01
+	}
+}
+{
+	"_id" : 50,
+	"info" : {
+		"data_run_id" : "AUSTRIA_2",
+		"depth" : 8,
+		"epoch_model AugKRR_MSE" : 0.10985787469815288,
+		"weight_decay" : 0.1
+	}
+}

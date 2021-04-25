@@ -33,10 +33,13 @@ def random_pick_wrong_target(target: LongTensor) -> LongTensor:
 
 LOG_LOGISTIC_LOSS = nn.SoftMarginLoss()
 
-
+## Pulkit
+# device = "cuda" if cfg.misc.gpu else "cpu"
+device = "cuda"
+# device = "cpu"
 def binary_logistic_loss(outputs: FloatTensor, positive: bool):
     """Utility function to wrap ``torch.SoftMarginLoss``."""
     if positive:
-        return LOG_LOGISTIC_LOSS(outputs, torch.ones(len(outputs)))
+        return LOG_LOGISTIC_LOSS(outputs.to(device), torch.ones(len(outputs)).to(device)).to(device)
     else:
-        return LOG_LOGISTIC_LOSS(outputs, -torch.ones(len(outputs)))
+        return LOG_LOGISTIC_LOSS(outputs.to(device), -torch.ones(len(outputs)).to(device)).to(device)

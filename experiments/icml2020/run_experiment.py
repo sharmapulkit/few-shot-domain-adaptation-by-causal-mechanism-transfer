@@ -64,8 +64,8 @@ def _evaluate_proposed_method(X_src, Y_src, c_src, tar_tr, tar_te, cfg,
     method_experiment_api = CausalMechanismTransferICML2020API(
         run_logger=run_logger,
         param_history_manager=PandasParamHistoryManager(previous_results),
-    )
-
+    )    
+    
     method_experiment_api.run_method_and_eval(
         X_src, Y_src, c_src, OmegaConf.to_container(cfg.method),
         cfg.method.run_split_number, cfg.method.run_split_total_number,

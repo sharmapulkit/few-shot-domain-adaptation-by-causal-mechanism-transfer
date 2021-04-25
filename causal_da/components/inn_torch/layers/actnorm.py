@@ -29,6 +29,8 @@ class ActNorm(nn.Module):
         self.dim = dim
         self.scale = float(scale)
         self.initializeed = False
+        # self.bias = self.bias.to(torch.device("cuda"))
+        # self.bias = torch.tensor(self.bias, device=torch.device('cuda'))
 
     def initialize_parameters(self, x: FloatTensor):
         """Data-dependent initialization of the parameters.
@@ -39,7 +41,8 @@ class ActNorm(nn.Module):
         """
         if not self.training:
             return
-        assert x.device == self.bias.device
+        # print("Devices:x", x.device, "::bias:", self.bias.device)
+        # assert x.device == self.bias.device
         with torch.no_grad():
             bias = _mean(x.clone(), dim=0, keepdim=True)
             variance = _mean((x.clone() - bias)**2, dim=0, keepdim=True)
@@ -57,7 +60,9 @@ class ActNorm(nn.Module):
         if not self.initializeed:
             self.initialize_parameters(x)
         # center and scale
-        x = (x - self.bias) * torch.exp(self.logs)
+        # print("Devices:x", x.device, "::bias:", self.bias.device, "::exp:", torch.exp(self.logs).device)
+        # x = x.to('cuda')
+        x = (x - self.bias) * (torch.exp(self.logs))
         return x
 
     def inv(self, x: FloatTensor) -> FloatTensor:

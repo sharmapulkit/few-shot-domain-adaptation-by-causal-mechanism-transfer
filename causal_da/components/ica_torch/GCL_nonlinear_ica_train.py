@@ -123,7 +123,7 @@ class GCLTrainer:
         neg_output = self.model.classify((data, negative_targets),
                                          return_hidden=False)
         contrastive_term = self.contrastive_loss(
-            pos_output, True) + self.contrastive_loss(neg_output, False)
+            pos_output, True) + self.contrastive_loss(neg_output, False) #.to(torch.device('cuda'))
 
         # For numerical stability.
         if (trainer.state.epoch == 1) and (trainer.state.iteration == 1):

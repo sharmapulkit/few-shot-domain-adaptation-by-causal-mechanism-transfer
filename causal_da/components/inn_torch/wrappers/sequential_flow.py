@@ -22,6 +22,7 @@ class SequentialFlow(nn.Module):
             x: the input.
         """
         for i in range(len(self.chain)):
+            x = x.to('cuda')
             x = self.chain[i](x)
         return x
 
@@ -33,5 +34,6 @@ class SequentialFlow(nn.Module):
         """
         inds = range(len(self.chain))
         for i in reversed(inds):
+            x = x.to('cuda')
             x = self.chain[i].inv(x)
         return x

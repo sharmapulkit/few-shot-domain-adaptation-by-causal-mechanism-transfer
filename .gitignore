@@ -112,3 +112,15 @@ GTAGS
 
 **/.RData
 **/.Rhistory
+
+*remote*
+*outputs*
+*pickle*
+*.ods
+*.csv
+*.bk
+*.txt#
+*.ods#
+*.csv#
+*.html
+mongodb*

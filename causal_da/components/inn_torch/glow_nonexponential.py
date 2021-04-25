@@ -1,8 +1,11 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import inn_torch.layers as layers
-from inn_torch.wrappers import SequentialFlow
+#import inn_torch.layers as layers
+#from inn_torch.wrappers import SequentialFlow
+
+from .wrappers import SequentialFlow
+from . import layers as layers
 
 # Type hinting
 from torch import FloatTensor
@@ -38,6 +41,7 @@ class GlowNonExponential(nn.Module):
         Parameters:
             x: input tensor.
         """
+        # x = x.to('cuda')
         return self.net(x)
 
     def inv(self, x: FloatTensor) -> FloatTensor:
@@ -90,6 +94,8 @@ class _NN(nn.Module):
         Parameters:
             x: input tensor.
         """
+        # print("X Device::", x.device)
+        x = x.to('cuda')
         hidden = F.relu(self.fc1(x))
         if self.scale:
             s = self.scaler * torch.tanh(self.fc_s(hidden))

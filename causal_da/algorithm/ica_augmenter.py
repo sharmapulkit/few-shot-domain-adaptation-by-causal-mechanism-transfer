@@ -188,8 +188,11 @@ def full_combination(x: np.ndarray):
     """Take the full product of the dimension-wise combinations of input data."""
     perms = np.array(
         list(itertools.product(range(x.shape[0]), repeat=x.shape[1])))
+    x_cpu = x.cpu().detach().numpy()
+    # return np.hstack(
+    #     tuple(x[perms[:, d], d][:, None] for d in range(x.shape[1])))
     return np.hstack(
-        tuple(x[perms[:, d], d][:, None] for d in range(x.shape[1])))
+        tuple(x_cpu[perms[:, d], d][:, None] for d in range(x.shape[1])))
 
 
 def stochastic_combination(x: np.ndarray, size: int):

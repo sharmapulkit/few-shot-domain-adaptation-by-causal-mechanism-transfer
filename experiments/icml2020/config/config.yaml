@@ -3,7 +3,7 @@ defaults:
   - method: causal_da
   - database
 
-debug: False
+debug: True
 
 recording:
   table: icml2020
@@ -14,8 +14,8 @@ recording:
   data_cache_base_path: 'pickle/data'
 
 parallelization:
-  data_run_id: 'JAPAN_1'
+  data_run_id: 'AUSTRIA_1'
 
 misc:
   max_threads: '-1'
-  gpu: False
+  gpu: True

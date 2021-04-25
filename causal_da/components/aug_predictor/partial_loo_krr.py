@@ -130,7 +130,7 @@ class PartialLOOCVKRR:
         cv_scores = np.empty((len(self.gammas), len(self.alphas)))
         for i, gamma in enumerate(self.gammas):
             ## K can be shared among different alphas
-            K = KernelRidge(kernel='rbf', gamma=gamma)._get_kernel(all_x)
+            K = KernelRidge(kernel='linear', gamma=gamma)._get_kernel(all_x)
             if sample_weight is not None:
                 K *= np.outer(sqrt_sw, sqrt_sw)
             for j, alpha in enumerate(self.alphas):
@@ -142,7 +142,7 @@ class PartialLOOCVKRR:
         i, j = np.unravel_index(np.argmin(cv_scores), cv_scores.shape)
         self.best_gamma, self.best_alpha = self.gammas[i], self.alphas[j]
 
-        _K = KernelRidge(kernel='rbf',
+        _K = KernelRidge(kernel='linear',
                          gamma=self.best_gamma)._get_kernel(all_x)
         _Ktilde = self._get_ktilde(_K, self.best_alpha)
         self.theta = _Ktilde @ all_y
@@ -160,7 +160,7 @@ class PartialLOOCVKRR:
         Parameters:
             X: input data (shape ``(n_sample, n_dim)``).
         """
-        _Phi = KernelRidge(kernel='rbf', gamma=self.best_gamma)._get_kernel(
+        _Phi = KernelRidge(kernel='linear', gamma=self.best_gamma)._get_kernel(
             X, self.kernel_bases)
         pred = _Phi @ self.theta
         assert len(pred) == len(X)

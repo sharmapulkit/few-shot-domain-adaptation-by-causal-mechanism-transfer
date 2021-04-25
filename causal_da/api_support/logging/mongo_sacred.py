@@ -73,7 +73,7 @@ class MongoAndSacredRunLogger(RunLogger):
         """
         @self.ex.main
         def _main(_run):
-            """The local method defined to wrap the run for interfacing with Sacred."""
+            """The local method defined to wrap the run for interfacing with Sacred."""            
             self._run = _run
             self.mongo_record_id = self.mongo_table.insert_one(
                 sanitize_data({

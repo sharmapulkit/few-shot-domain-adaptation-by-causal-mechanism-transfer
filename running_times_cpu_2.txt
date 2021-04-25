@@ -1,0 +1,627 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/sacred
+MongoDB server version: 3.6.3
+{
+	"_id" : 5,
+	"start_time" : ISODate("2021-04-21T13:11:25.422Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:15:34.321Z")
+}
+{
+	"_id" : 6,
+	"start_time" : ISODate("2021-04-21T13:15:34.577Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:16:58.343Z")
+}
+{
+	"_id" : 7,
+	"start_time" : ISODate("2021-04-21T13:16:58.660Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:19:49.090Z")
+}
+{
+	"_id" : 8,
+	"start_time" : ISODate("2021-04-21T13:19:49.370Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:37:53.131Z")
+}
+{
+	"_id" : 9,
+	"start_time" : ISODate("2021-04-21T13:37:53.389Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:39:42.705Z")
+}
+{
+	"_id" : 10,
+	"start_time" : ISODate("2021-04-21T13:39:42.981Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:41:37.393Z")
+}
+{
+	"_id" : 11,
+	"start_time" : ISODate("2021-04-21T13:41:37.635Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:44:00.180Z")
+}
+{
+	"_id" : 12,
+	"start_time" : ISODate("2021-04-21T13:44:00.502Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:47:22.408Z")
+}
+{
+	"_id" : 13,
+	"start_time" : ISODate("2021-04-21T13:47:22.687Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T13:51:17.663Z")
+}
+{
+	"_id" : 14,
+	"start_time" : ISODate("2021-04-21T13:51:17.983Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T14:24:26.981Z")
+}
+{
+	"_id" : 15,
+	"start_time" : ISODate("2021-04-21T14:24:27.317Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T14:30:09.886Z")
+}
+{
+	"_id" : 16,
+	"start_time" : ISODate("2021-04-21T14:30:10.198Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T14:34:43.289Z")
+}
+{
+	"_id" : 17,
+	"start_time" : ISODate("2021-04-21T14:34:43.647Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T14:48:12.930Z")
+}
+{
+	"_id" : 18,
+	"start_time" : ISODate("2021-04-21T14:48:13.376Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:03:27.166Z")
+}
+{
+	"_id" : 19,
+	"start_time" : ISODate("2021-04-21T15:03:27.604Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:09:05.858Z")
+}
+{
+	"_id" : 20,
+	"start_time" : ISODate("2021-04-21T15:09:06.306Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:47:18.627Z")
+}
+{
+	"_id" : 21,
+	"start_time" : ISODate("2021-04-21T15:47:19.016Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:50:30.263Z")
+}
+{
+	"_id" : 22,
+	"start_time" : ISODate("2021-04-21T15:50:30.605Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:53:56.200Z")
+}
+{
+	"_id" : 23,
+	"start_time" : ISODate("2021-04-21T15:53:56.527Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T15:59:36.820Z")
+}
+{
+	"_id" : 24,
+	"start_time" : ISODate("2021-04-21T15:59:37.246Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T16:05:37.233Z")
+}
+{
+	"_id" : 25,
+	"start_time" : ISODate("2021-04-21T16:05:37.647Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T16:13:25.978Z")
+}
+{
+	"_id" : 26,
+	"start_time" : ISODate("2021-04-21T16:13:26.454Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_1"
+	},
+	"stop_time" : ISODate("2021-04-21T16:21:17.109Z")
+}
+{
+	"_id" : 27,
+	"start_time" : ISODate("2021-04-21T16:21:19.751Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T16:22:22.964Z")
+}
+{
+	"_id" : 28,
+	"start_time" : ISODate("2021-04-21T16:22:23.617Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T16:23:33.333Z")
+}
+{
+	"_id" : 29,
+	"start_time" : ISODate("2021-04-21T16:23:33.825Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T16:34:53.514Z")
+}
+{
+	"_id" : 30,
+	"start_time" : ISODate("2021-04-21T16:34:53.788Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T16:39:23.433Z")
+}
+{
+	"_id" : 31,
+	"start_time" : ISODate("2021-04-21T16:39:23.852Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T16:42:30.699Z")
+}
+{
+	"_id" : 32,
+	"start_time" : ISODate("2021-04-21T16:42:31.111Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:05:37.337Z")
+}
+{
+	"_id" : 33,
+	"start_time" : ISODate("2021-04-21T17:05:37.652Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:07:30.329Z")
+}
+{
+	"_id" : 34,
+	"start_time" : ISODate("2021-04-21T17:07:30.699Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:09:51.614Z")
+}
+{
+	"_id" : 35,
+	"start_time" : ISODate("2021-04-21T17:09:52.004Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:39:36.796Z")
+}
+{
+	"_id" : 36,
+	"start_time" : ISODate("2021-04-21T17:39:37.243Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:43:20.222Z")
+}
+{
+	"_id" : 37,
+	"start_time" : ISODate("2021-04-21T17:43:20.652Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:47:56.843Z")
+}
+{
+	"_id" : 38,
+	"start_time" : ISODate("2021-04-21T17:47:57.290Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:54:28.871Z")
+}
+{
+	"_id" : 39,
+	"start_time" : ISODate("2021-04-21T17:54:29.190Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T17:57:50.444Z")
+}
+{
+	"_id" : 40,
+	"start_time" : ISODate("2021-04-21T17:57:50.863Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T18:14:04.768Z")
+}
+{
+	"_id" : 41,
+	"start_time" : ISODate("2021-04-21T18:14:05.056Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T19:28:08.303Z")
+}
+{
+	"_id" : 42,
+	"start_time" : ISODate("2021-04-21T19:28:08.610Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T20:01:42.058Z")
+}
+{
+	"_id" : 43,
+	"start_time" : ISODate("2021-04-21T20:01:42.387Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T20:21:43.047Z")
+}
+{
+	"_id" : 44,
+	"start_time" : ISODate("2021-04-21T20:21:43.326Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T21:33:36.550Z")
+}
+{
+	"_id" : 45,
+	"start_time" : ISODate("2021-04-21T21:33:37.110Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T21:36:50.743Z")
+}
+{
+	"_id" : 46,
+	"start_time" : ISODate("2021-04-21T21:36:51.229Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T21:43:19.225Z")
+}
+{
+	"_id" : 47,
+	"start_time" : ISODate("2021-04-21T21:43:19.620Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T21:48:48.107Z")
+}
+{
+	"_id" : 48,
+	"start_time" : ISODate("2021-04-21T21:48:48.632Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T21:56:29.040Z")
+}
+{
+	"_id" : 49,
+	"start_time" : ISODate("2021-04-21T21:56:29.354Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T22:06:08.023Z")
+}
+{
+	"_id" : 50,
+	"start_time" : ISODate("2021-04-21T22:06:08.475Z"),
+	"info" : {
+		"data_run_id" : "AUSTRIA_2"
+	},
+	"stop_time" : ISODate("2021-04-21T22:13:40.926Z")
+}
+{
+	"_id" : 52,
+	"start_time" : ISODate("2021-04-21T22:58:24.571Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:00:00.341Z")
+}
+{
+	"_id" : 53,
+	"start_time" : ISODate("2021-04-21T23:00:00.593Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:02:58.390Z")
+}
+{
+	"_id" : 54,
+	"start_time" : ISODate("2021-04-21T23:02:58.683Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:08:45.573Z")
+}
+{
+	"_id" : 55,
+	"start_time" : ISODate("2021-04-21T23:08:45.872Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:10:43.531Z")
+}
+{
+	"_id" : 56,
+	"start_time" : ISODate("2021-04-21T23:10:43.840Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:13:05.023Z")
+}
+{
+	"_id" : 57,
+	"start_time" : ISODate("2021-04-21T23:13:05.325Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-21T23:49:21.368Z")
+}
+{
+	"_id" : 58,
+	"start_time" : ISODate("2021-04-21T23:17:54.872Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-21T23:22:53.563Z")
+}
+{
+	"_id" : 59,
+	"start_time" : ISODate("2021-04-21T23:22:54.137Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T00:01:36.956Z")
+}
+{
+	"_id" : 60,
+	"start_time" : ISODate("2021-04-21T23:49:21.869Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T00:47:33.271Z")
+}
+{
+	"_id" : 64,
+	"start_time" : ISODate("2021-04-22T00:01:37.432Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T00:10:10.262Z")
+}
+{
+	"_id" : 65,
+	"start_time" : ISODate("2021-04-22T00:10:10.730Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T00:24:39.591Z")
+}
+{
+	"_id" : 67,
+	"start_time" : ISODate("2021-04-22T00:24:39.842Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T02:03:48.322Z")
+}
+{
+	"_id" : 68,
+	"start_time" : ISODate("2021-04-22T00:47:33.717Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T01:10:12.624Z")
+}
+{
+	"_id" : 69,
+	"start_time" : ISODate("2021-04-22T01:10:13.068Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T01:54:41.611Z")
+}
+{
+	"_id" : 71,
+	"start_time" : ISODate("2021-04-22T01:54:41.876Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T02:38:10.526Z")
+}
+{
+	"_id" : 72,
+	"start_time" : ISODate("2021-04-22T02:03:48.584Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T02:07:55.303Z")
+}
+{
+	"_id" : 73,
+	"start_time" : ISODate("2021-04-22T02:07:55.849Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T02:14:25.624Z")
+}
+{
+	"_id" : 77,
+	"start_time" : ISODate("2021-04-22T02:14:26.129Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T03:24:41.479Z")
+}
+{
+	"_id" : 84,
+	"start_time" : ISODate("2021-04-22T02:38:11.019Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T06:13:20.825Z")
+}
+{
+	"_id" : 88,
+	"start_time" : ISODate("2021-04-22T03:24:41.947Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T03:33:36.927Z")
+}
+{
+	"_id" : 89,
+	"start_time" : ISODate("2021-04-22T03:33:37.527Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T04:08:43.171Z")
+}
+{
+	"_id" : 93,
+	"start_time" : ISODate("2021-04-22T04:08:43.677Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T07:55:57.926Z")
+}
+{
+	"_id" : 95,
+	"start_time" : ISODate("2021-04-22T06:13:21.278Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T15:38:44.570Z")
+}
+{
+	"_id" : 97,
+	"start_time" : ISODate("2021-04-22T07:55:58.499Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_2"
+	},
+	"stop_time" : ISODate("2021-04-22T19:36:40.935Z")
+}
+{
+	"_id" : 110,
+	"start_time" : ISODate("2021-04-22T08:29:24.928Z"),
+	"info" : {
+		"data_run_id" : "DENMARK_3"
+	},
+	"stop_time" : ISODate("2021-04-22T10:13:57.463Z")
+}
+{
+	"_id" : 111,
+	"start_time" : ISODate("2021-04-22T08:30:37.636Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_4"
+	},
+	"stop_time" : ISODate("2021-04-22T10:24:56.513Z")
+}
+{
+	"_id" : 175,
+	"start_time" : ISODate("2021-04-22T10:24:57.275Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_4"
+	},
+	"stop_time" : ISODate("2021-04-22T10:53:50.804Z")
+}
+{
+	"_id" : 176,
+	"start_time" : ISODate("2021-04-22T10:53:51.444Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_4"
+	},
+	"stop_time" : ISODate("2021-04-22T14:28:39.836Z")
+}
+{
+	"_id" : 177,
+	"start_time" : ISODate("2021-04-22T14:28:40.488Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_4"
+	},
+	"stop_time" : ISODate("2021-04-22T14:58:47.499Z")
+}
+{
+	"_id" : 178,
+	"start_time" : ISODate("2021-04-22T14:58:48.422Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_4"
+	},
+	"stop_time" : ISODate("2021-04-22T21:00:24.603Z")
+}
+{
+	"_id" : 179,
+	"start_time" : ISODate("2021-04-22T15:38:45.339Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T15:53:49.461Z")
+}
+{
+	"_id" : 180,
+	"start_time" : ISODate("2021-04-22T15:53:49.915Z"),
+	"info" : {
+		"data_run_id" : "BELGIUM_1"
+	},
+	"stop_time" : ISODate("2021-04-22T19:50:26.066Z")
+}
